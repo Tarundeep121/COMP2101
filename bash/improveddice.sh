@@ -27,7 +27,8 @@ echo "Rolling..."
 die1=$(( RANDOM % 6 + 1))
 die2=$(( RANDOM % 6 + 1 ))
 sum=$((die1+die2))
-# display the results
+avg=$((sum/2))
 echo "Rolled $die1, $die2"
 echo "sum = $sum"
+echo "avg = $avg"
 echo "Rolling..."
